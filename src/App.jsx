@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 // The backend URL — FastAPI runs on port 8000
-const API_URL = "http://localhost:8000";
+const API_URL = "";
 
 export default function App() {
   const [response, setResponse] = useState(null);
